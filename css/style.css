@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: hsl(234, 29%, 20%);
+    --cor2: hsl(4, 100%, 67%);
+    --cor3: hsl(235, 18%, 26%);
+    --cor4: hsl(231, 7%, 60%);
+    --cor5: hsl(0, 0%, 100%);
+}
+
+body {
+    width: 412px;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+}
+
+#img-logo {
+    background-image: url(/assets/images/illustration-sign-up-mobile.svg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;    
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+p img {
+    padding-right: 10px;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    padding-left: 20px;
+}
+
+#email-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items: center;
+}
+
+label {
+    width: 90%;
+    font-weight: bolder;
+}
+
+#email {
+    width: 90%;
+    height: 60px;
+    border: 1px solid var(--cor4);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border: 1px solid var(--cor4);
+}
+
+#send {
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--cor1);
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
