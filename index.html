@@ -18,44 +18,64 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <main>
+    <main id="container">
       <div id="img-logo"></div>
 
-      <h1>Stay updated!</h1>
-
-      <h2>Join 60,000+ product managers receiving monthly updates on:</h2>
-
-      <div class="list">
-        <img src="assets/images/icon-list.svg" alt="" />
-        <p>Product discovery and building what matters</p>
-      </div>
-
-      <div class="list">
-        <img src="assets/images/icon-list.svg" alt="" />
-        <p>Measuring to ensure updates are a success</p>
-      </div>
-
-      <div class="list">
-        <img src="assets/images/icon-list.svg" alt="" />
-        <p>And much more!</p>
-      </div>
-
-      <div id="email-area">
-        <label for="email">Email address</label>
-
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="email@company.com"
-        />
-
-        <input
-          type="submit"
-          id="send"
-          value="Subscribe to monthly newsletter"
-        />
+      <div id="area2">
+        <h1>Stay updated!</h1>
+        <h2>Join 60,000+ product managers receiving monthly updates on:</h2>
+        <div class="list">
+          <img src="assets/images/icon-list.svg" alt="" />
+          <p>Product discovery and building what matters</p>
+        </div>
+        <div class="list">
+          <img src="assets/images/icon-list.svg" alt="" />
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        <div class="list">
+          <img src="assets/images/icon-list.svg" alt="" />
+          <p>And much more!</p>
+        </div>
+        <div id="email-area">
+          <div id="email-div">
+            <span id="span1">Email address</span>
+           <span id="span2">Valid email required</span>
+          </div>
+        
+        
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="      email@company.com"
+          />
+          <input
+            type="submit"
+            id="send"
+            value="Subscribe to monthly newsletter"
+          />
+        </div>
       </div>
     </main>
+
+    <div id="success">
+
+      <div id="success-img">
+
+      </div>
+
+      <h2>Thanks for Subscribing!</h2>
+      <p>A confirmation email has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm your subscription</p>
+
+      <input
+          type="submit"
+          id="send2"
+          value="Dismiss message"
+        />
+      </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
